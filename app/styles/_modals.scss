@@ -1,0 +1,30 @@
+.reveal-modal {
+  background-image: url(../images/texture.png);
+  overflow: hidden;
+}
+
+.reveal-modal img {
+  border: 0;
+  box-shadow: #727272 0px 2px 4px 1px ;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.noshadow {
+  box-shadow: none !important;
+}
+
+.padleft {
+  padding-left: 10px !important;
+}
+
+.padright {
+  margin-right: 10px !important;
+}
+
+.reveal-modal input, textarea, button {
+  border-radius: 5px;
+}
