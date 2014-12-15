@@ -1,0 +1,96 @@
+.browsehappy {
+  margin: 0.2em 0;
+  padding: 0.2em 0;
+  color: $tuatara;
+  background: $iron;
+}
+
+h2 {
+  color: $oil;
+  text-align: center;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.container {
+  position: relative;
+  max-width: $row-width;
+  margin: 0 auto;
+}
+
+section {
+  width: 58%;
+margin: 0 auto;
+
+  + section {
+    margin-top: 10em;
+  }
+
+  &:first-of-type {
+    margin-top: 5em;
+  }
+
+  &:last-of-type {
+  }
+}
+.content-spacer {padding-bottom:25em;}
+
+@media (max-width: 450px) {
+  section {
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
+
+hr {
+  width: 65%;
+  margin: 0 auto;
+
+  &:nth-of-type(2n + 1) {
+    margin-top: 3em;
+  }
+
+  &:nth-of-type(2n) {
+    margin-bottom: 3em;
+  }
+}
+
+.container {
+  blockquote {
+    margin-bottom: 40px;
+    border: none;
+
+    p, footer, cite {
+      font-size: 16px;
+      color: $body-font-color;
+    }
+
+    p, cite {
+      font-weight: bold;
+    }
+
+    p {
+      float: left;
+      width: 70%;
+    }
+
+    footer {
+      font-size: 14px;
+      font-style: italic;
+      float: left;
+      width: 25%;
+      margin-left: 5%;
+      text-transform: uppercase;
+    }
+
+    cite {
+      font-size: 15px;
+      font-style: normal;
+      &:before {
+        content: none;
+      }
+    }
+  }
+}

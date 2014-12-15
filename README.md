@@ -3,6 +3,8 @@ Sunny Day Single-Page Scroller
 
 A one-pager scrolling website with multiple layers, paper-like textures, elements lifted, and a sticky-nav.
 
+This site uses [Foundation](http://foundation.zurb.com/) Reveal (for Modals), and Magellan (for StickyNav).
+
 Getting Started
 ---------------
 
@@ -20,10 +22,12 @@ Grunt tasks
 -----------
 
  * `$ grunt serve`
-   Starts a local web server (default: port 9000), opens the site in your default web browser, watches for changes in source files and rebuilds when changes are detected.
+   Starts a local web server (default: port 9000), opens the site in your default web browser, watches for changes in source files and rebuilds when changes are detected[^1].
 
  * `$ grunt build`
    Build a production ready copy of the site. Concatenates, minifies, and version stamps assets.
 
+ * 'git fetch origin' and then 'git checkout gh-pages' to send the current build to GitHub-Pages
 
-[LiveReload](http://livereload.com/) has extensions for Chrome, Firefox and Safari.
+
+[^1][LiveReload](http://livereload.com/) has extensions for Chrome, Firefox and Safari.

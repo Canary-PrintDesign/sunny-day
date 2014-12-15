@@ -1,0 +1,22 @@
+//http://stackoverflow.com/questions/15152470/chrome-rendering-issue-fixed-position-anchor-with-ul-in-body
+@mixin fixed-position-bugfix {
+  -webkit-transform: translateZ(0);
+}
+
+@mixin horizontal-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+
+  li {
+    display: inline;
+  }
+}
+
+@mixin cover {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  @include fixed-position-bugfix();
+}

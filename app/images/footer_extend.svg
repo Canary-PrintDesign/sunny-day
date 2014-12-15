@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+   width="3000px" height="600px" viewBox="0 0 3000 600" enable-background="new 0 0 3000 600" xml:space="preserve">
+      <defs>
+  <filter id="drop-shadow">
+    <feGaussianBlur stdDeviation="4" in="SourceAlpha"/>
+    <feOffset dx="0" dy="0" result="offsetblur"/>
+    <feFlood flood-color="#727272"/>
+    <feComposite operator="in" in2="offsetblur"/>
+    <feMerge>
+      <feMergeNode/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+</defs>
+<g filter="url(#drop-shadow)">
+<g id="Mountains">
+  <g id="left-mountain">
+      <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="1056.85" y1="33.5" x2="1056.85" y2="-60.4" gradientTransform="matrix(1 0 0 -1 -146 420)">
+      <stop  offset="0" style="stop-color:#646464"/>
+      <stop  offset="1" style="stop-color:#333333"/>
+    </linearGradient>
+    <polygon fill="url(#SVGID_1_)" points="989,386.5 834.2,480.4 989,472.4    "/>
+  </g>
+</g>
+<g id="ground_1_">
+  <g id="ground">
+    <path fill="#604F3F" d="M988,423.3c2,0.4,190.8,16.7,266.8,12.8c75.9-3.8,400.6-20.5,497.2-16.1c96.7,4.4,260,3.3,260,3.3v178.4
+      H988V423.3z"/>
+  </g>
+  <g id="ground_2_">
+    <path fill="#604F3F" d="M2012,423.3c2,0.4,190.8,16.7,266.8,12.8c75.9-3.8,400.6-20.5,497.2-16.1c96.7,4.4,260,3.3,260,3.3v178.4
+      H1927.5L2012,423.3z"/>
+  </g>
+  <g id="ground_5_">
+    <path fill="#604F3F" d="M-36,423.3c2,0.4,190.8,16.7,266.8,12.8c75.9-3.8,400.6-20.5,497.2-16.1c96.7,4.4,260,3.3,260,3.3
+      l51.5,178.4H-36V423.3z"/>
+  </g>
+</g></g>
+</svg>
